@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['airbnb-base'],
+  extends: ['airbnb-base', 'prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
   },
@@ -12,7 +12,9 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-unused-vars': 'warn',
     'consistent-return': 'off',
+    'no-confusing-arrow': 'off',
     camelcase: 'off',
+    'implicit-arrow-linebreak': 'off',
     // "prettier/prettier": ["error", { singleQuote: true }],
   },
 };
